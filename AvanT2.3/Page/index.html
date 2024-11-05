@@ -16,44 +16,32 @@
             <header class="header">
                 <div class="header-content">
                     <div class="header-left">
-                        <button class="menu-button">☰</button>
-                        <h2>Task Hub</h2>
+                        <a href="/" class="logo">Task Hub</a>
                     </div>
-                    <nav class="header-nav">
-                        <a href="index.html">Index</a>
-                        <a href="info.html">Features</a>
-                        <a href="precios.html">Pricing</a>
-                        <a href="acerca.html">About Us</a>
-                        <a href="">Contact</a>
+                    <nav class="main-nav">
+                        <a href="features.html" class="nav-link">Features</a>
+                        <a href="pricing.html" class="nav-link">pricing</a>
+                        <a href="about.html" class="nav-link">About</a>
+                        <a href="index.html" class="nav-link">Home</a>
                     </nav>
                     <div class="header-right">
-                        <div class="user-menu">
-                            <svg class="user" xmlns="http://www.w3.org/2000/svg"
-                                class="icon icon-tabler icon-tabler-user" width="32" height="32" viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
-                                <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
-                            </svg>
-                            <div class="dropdown-content">
-                                <h3>My Account</h3>
-                                <hr>
-                                <a href="#">Profile</a>
-                                <a href="#">Settings</a>
-                                <a href="#">Logout</a>
-                            </div>
-                        </div>
+                        <button class="btn btn-secondary">Login</button>
+                        <button class="btn btn-primary">Register</button>
                     </div>
                 </div>
             </header>
 
             <!-- Banner -->
             <div class="banner">
+                <div class="image-slider">
+                    <img src="../img/banner1.jpg" alt="Imagen 1" class="active">
+                    <img src="../img/banner2.jpg" alt="Imagen 2">
+                    <img src="../img/banner3.jpg" alt="Imagen 3">
+                    <img src="../img/banner4.jpg" alt="Imagen 4">
+                    <img src="../img/banner5.jpg" alt="Imagen 5">
+                </div>
                 <div class="banner-content">
-                    <h1>Welcome to Task Hub</h1>
-                    <p>Streamline your workflow, boost productivity, and achieve your goals with our powerful task
-                        management platform.</p>
+                    <h1 class="banner-text">Make Your Company a Team</h1>
                     <button class="cta-button">Get Started</button>
                 </div>
             </div>
@@ -139,6 +127,8 @@
             </footer>
         </main>
     </div>
+    <script src="../jsP/index.js"></script>
+
 </body>
 
 </html>
